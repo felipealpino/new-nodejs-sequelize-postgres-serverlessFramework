@@ -1,10 +1,12 @@
-const express = require('express')
+const express = require('express');
+const { use } = require('./routes/index');
+const router = require('./routes/index')
+const helpers = require('./helpers')
 
-const router = express.Router();
-router.get('*', (req,res) => {
-    res.send('Hello World!')
-})
+const app = express()
+app.use(express.json())
 
-const app = express();
+
+
 app.use('*', router)
 module.exports = app

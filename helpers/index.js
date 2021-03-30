@@ -1,0 +1,1 @@
+exports.euSouUmaVariavelHelper = 'Oi, sou uma variavel helper localizada em /helpers/index.js'  
