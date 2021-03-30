@@ -1,8 +1,5 @@
 const express = require('express');
-const { use } = require('./routes/index');
-const router = require('./routes/index')
-const helpers = require('./helpers')
-
+const router = require('./server/routes/index')
 const app = express()
 app.use(express.json())
 

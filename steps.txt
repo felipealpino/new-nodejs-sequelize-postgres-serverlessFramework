@@ -3,3 +3,8 @@
 → npm install nodemon --save-dev
 
 → npm install dotenv
+
+→ npm i -g sequelize-cli
+→ npm i --save sequelize pg pg-hstore
+→ npx sequelize-cli init
+→ npx sequelize-cli model:create --name User --attributes name:string, email:string, password:string
